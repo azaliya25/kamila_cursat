@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mskill</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="../assets/media/logo/logo-dark.png" type="image/png-icon" sizes="5x5">
+</head>
+<body>
+    <header class="header-pink" id="header-pink">
+        <div class="container">
+                <div class="menu">
+                        <a href="../index.html">
+                            <img src="../assets/media/logo/logo.png" alt="logo" class="logo">
+                        </a>
+
+                        <div class="nav">
+                            <a href="../index.html">Главная</a>
+                            <a href="#">О нас</a>
+                            <a href="#">Результаты</a>
+                            <a href="#">Контакты</a>
+                        </div>
+                        <div class="burger">
+                            <span></span>
+                        </div>
+                        <div class="tel">
+                            <a href="#"> <img src="../assets/media/header/phone.png" alt="icon"></a>
+                            <p class="number">+7(987)342-12-84</p>
+                         </div>
+                        <div class="icons">
+                           <a href="../pages/account.html"> <img src="../assets/media/header/person.png" alt="icon"></a>
+                           <a href="../pages/entrance.html"> <img src="../assets/media/header/exit.png" alt="icon"></a>
+                        </div>
+                </div>
+            </div>          
+        </div>
+    </header>
+
+    <section class="account" id="account">
+        <div class="container">
+        <h2 class="acch2">Страница пользователя</h2>
+                <div class="catalog-box3">
+                    <div class="header-box3">
+                        <div class="header-icons3">
+                            <img src="../assets/media/catalog/line.png" alt="icon">
+                            <img src="../assets/media/catalog/Rectangle.png" alt="icon">
+                            <img src="../assets/media/catalog/krest.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="dann">
+                   <div class="krug">
+
+                   </div>
+                   <div class="h3">
+                    <h3>Имя</h3>
+                    <h3>Фамилия</h3>
+                    <h3>Номер телефона</h3>
+                   </div>
+                </div>
+                <div class="bron">
+                    <p class="bron-check">Мои бронирования:</p>
+                    <p class="bron-check">Название курса: Курс по изучению немецкого языка</p>
+                    <p class="bron-check">Начало курса: 24.04.2024</p>
+                    <p class="bron-check">Конец курса: 24.05.2024</p>
+                    <p class="bron-check">Стоимость курса: 990 ₱</p>
+                    <p class="bron-check">Статус: Одобрено</p>
+                </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            document.querySelector('.burger').addEventListener('click', function() {
+                this.classList.toggle('active');
+                document.querySelector('.nav').classList.toggle('open');
+            })
+        </script>
+    </body>
+    </html>    
+    

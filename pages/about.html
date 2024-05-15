@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mskill</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="icon" href="../mskill/assets/media/logo/logo-dark.png" type="image/png-icon" sizes="5x5">
+</head>
+<body>
+    <header class="header-pink" id="header-pink">
+        <div class="container">
+                <div class="menu">
+                        <a href="../index.html">
+                            <img src="../assets/media/logo/logo.png" alt="logo" class="logo">
+                        </a>
+
+                        <div class="nav">
+                            <a href="../index.html">Главная</a>
+                            <a href="#">О нас</a>
+                            <a href="#">Результаты</a>
+                            <a href="#">Контакты</a>
+                        </div>
+                        <div class="burger">
+                            <span></span>
+                        </div>
+                        <div class="tel">
+                            <a href="#"> <img src="../assets/media/header/phone.png" alt="icon"></a>
+                            <p class="number">+7(987)342-12-84</p>
+                         </div>
+                        <div class="icons">
+                           <a href="../pages/account.html"> <img src="../assets/media/header/person.png" alt="icon"></a>
+                           <a href="../pages/entrance.html"> <img src="../assets/media/header/exit.png" alt="icon"></a>
+                        </div>
+                </div>
+            </div>          
+        </div>
+    </header>
+
+    <section class="about-us" id="about-us">
+        <div class="container">
+            <div class="about-block">
+            <div class="opis-block">
+            <h2 class="h2about">Приветствую вас</h2>
+            <p class="opisanie">
+                В нашей онлайн школе, где мы стремимся создать комфортную и инновационную образовательную среду для каждого ученика.<br>
+
+Наша школа предлагает широкий спектр курсов и программ, разработанных с учетом современных образовательных тенденций и потребностей наших учеников.<br>
+
+Онлайн формат обучения позволяет нашим ученикам гибко планировать свое время, изучать материалы в удобном для них темпе и получать доступ к качественному образованию из любой точки мира. Наши опытные преподаватели всегда готовы поддержать и помочь каждому ученику достичь своих образовательных целей.<br>
+
+Мы верим, что образование - это ключ к успешному будущему, и мы готовы сделать все возможное, чтобы помочь нашим ученикам раскрыть свой потенциал и достичь успеха в жизни.<br>
+            </p>
+            <div class="op">
+            <a href="../assets/media/docs/certificate.docx" download class="doc">Свидетельство о государственной регистрации юридического лица</a><br>
+           <a href="../assets/media/docs/license.docx" download class="doc">Лицензия на осуществление образовательной деятельности</a> 
+        </div>
+        </div>
+        
+            <img src="../assets/media/banner/heart.png" alt="heart" class="pink-heart">
+        </div>
+    </div>
+
+    </section>
+    
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        })
+    </script>
+
+</body>
+</html>
